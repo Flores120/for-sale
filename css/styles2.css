@@ -6,19 +6,56 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 nav {
+  padding: 15px;
   position: absolute; top: 15px; left: 70px;
 }
 a {
   font-size: 20px;
+  text-decoration: none;
+  color: #335893;
 }
 form {
+  background-color: #f9fbff;
+  padding: 20px;
   width: 800px;
   margin: auto;
-  border: solid black 2px;
 }
-select, input {
-  width: 400px;
-  box-sizing: border-box;
+ input {
+  outline: none;
+  border: solid #335893 1px;
+  color: #335893;
+  font-size: 20px;
+  margin-top: 10px;
+  height: 40px;
+  width: 100%;
+}
+input:focus {
+  border: solid blue 2px;
+}
+label {
+  color: #335893;
+}
+button {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 5px;
+  background-color: white;
+  color: #335893;
+  border:  2px solid #335893;
+  border-radius: 5px;
+  height: 40px;
+  width: 80px;
+}
+button:hover {
+  background-color: #335893;
+  color: white;
+}
+select {
+  float: right;
+  width: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
 }
 .img {
   margin-left: 50px;
@@ -32,4 +69,9 @@ select, input {
   width: 1800px;
   margin: auto;
   border: solid black 2px;
+}
+#title {
+  color: #335893;
+  font-size: 50px;
+  margin-left: 600px;
 }
