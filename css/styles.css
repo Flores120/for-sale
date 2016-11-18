@@ -20,7 +20,6 @@ a {
 a:hover:not(.active){
   filter: brightness(.4);
 }
-
 .img {
   margin-left: 50px;
 }

@@ -11,10 +11,13 @@ nav {
   position: absolute; top: 15px; left: 70px;
 }
 a {
-  font-size: 20px;
+  margin-left: 5px;
   text-decoration: none;
   color: white;
-  margin-left: 5px;
+  font-size: 20px;
+}
+a:hover:not(.active){
+  filter: brightness(.4);
 }
 form {
   padding: 20px;
@@ -83,6 +86,7 @@ select {
 .input {
   margin-top: 20px;
 }
+
 #title {
   color: white;
   font-size: 50px;
