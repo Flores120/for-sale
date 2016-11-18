@@ -34,10 +34,11 @@ input {
   margin-top: 10px;
   height: 40px;
   width: 100%;
-  transition: width 2s;
+  transition: border-color 2s, width 1s ease-in-out;
 }
 
 input:focus {
+  border-color: #335893;
   width: 95%;
 }
 label {
@@ -55,7 +56,7 @@ button {
   width: 100px;
 }
 button:hover {
-  background-color: white;
+  border-color: white;
   color: #335893;
 }
 select {
