@@ -5,15 +5,15 @@
 ###By Alvaro Flores###
 
 ##Description##
-**A site that has many adidas NMD shoes, only size pf 8-11 and color only available are red, black and white**
+**A site that has many adidas NMD shoes, only size of 8-11 and color only available are red, black and white**
 
 ##Setup/Installation Requirements##
 
-**Git clone**
-**Open in it in the browser and you're done**
+Git clone
+**Open in it in the browser and you're done
 
 ##Known Bugs##
-**currently there are no known bugs**
+currently there are no known bugs**
 
 ##Support and contact details##
 
