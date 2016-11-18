@@ -17,10 +17,9 @@ a {
   margin-left: 5px;
 }
 form {
-  background-color: #161616;
   padding: 20px;
   width: 800px;
-  position: relative; right: 50%; top: 50%;
+  position: relative; left: 25%; top: 20%;
 }
  input {
   outline: none;
@@ -46,15 +45,15 @@ button {
   font-size: 16px;
   margin-top: 5px;
   background-color: transparent;
-  color: #335893;
-  border:  2px solid #335893;
+  color: white;
+  border:  2px solid white;
   border-radius: 5px;
   height: 40px;
-  width: 80px;
+  width: 100px;
 }
 button:hover {
-  background-color: #335893;
-  color: white;
+  background-color: white;
+  color: #335893;
 }
 select {
   float: right;
@@ -62,6 +61,7 @@ select {
   background: transparent;
   border: none;
   outline: none;
+  color: white;
 }
 .cover {
   margin-left: 50px;
@@ -75,9 +75,13 @@ select {
   margin: auto;
 }
 .form-container {
+  padding: 50px;
   margin-top: 100px;
   background-color: #161616;
   height: 1000px;
+}
+.input {
+  margin-top: 20px;
 }
 #title {
   color: white;
