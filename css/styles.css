@@ -2,23 +2,41 @@
 ::after {
   box-sizing: border-box;
 }
-
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.img {
+  margin-left: 50px;
+}
+.img img {
+  height: 800px;
+  width: 2300px;
+}
 .container {
-  width: 1250px;
+  width: 1800px;
   height: 1400px;
   margin: auto;
 }
-.img img {
-  width: 1250px;
-  margin-left: auto;
-  margin-right: auto;
+.shoe-container {
+  margin: auto;
+  margin-left: 10px;
 }
-
+#description {
+  color: white;
+  width: 400px;
+  position: absolute; left: 200px; top: 100px;
+  font-size: 30px;
+  font-family: 'Lalezar', cursive;
+}
 #shoe {
   float: left;
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 300px;
   margin-top: 15px;
+}
+#shoe:hover{
+  cursor: pointer;
+  filter: brightness(.3);
 }
 #shoe:nth-child(2){
   margin-right: 16.5px;
