@@ -4,6 +4,7 @@
 }
 body {
   font-family: 'Montserrat', sans-serif;
+  background-image: url('../img/logo.jpg');
 }
 nav {
   background-color: inherit;
@@ -24,8 +25,8 @@ a:hover:not(.active){
   margin-left: 50px;
 }
 .img img {
-  height: 800px;
-  width: 2300px;
+  height: 600px;
+  width: 2000px;
 }
 .container {
   width: 1800px;
@@ -40,7 +41,7 @@ a:hover:not(.active){
   color: white;
   width: 400px;
   position: absolute; left: 200px; top: 100px;
-  font-size: 30px;
+  font-size: 20px;
   font-family: 'Lalezar', cursive;
 }
 #shoe {

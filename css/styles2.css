@@ -4,6 +4,7 @@
 }
 body{
   font-family: 'Montserrat', sans-serif;
+  background-image: url('../img/logo.jpg');
 }
 nav {
   padding: 15px;
@@ -12,25 +13,30 @@ nav {
 a {
   font-size: 20px;
   text-decoration: none;
-  color: #335893;
+  color: white;
+  margin-left: 5px;
 }
 form {
-  background-color: #f9fbff;
+  background-color: transparent;
   padding: 20px;
   width: 800px;
   margin: auto;
 }
  input {
   outline: none;
-  border: solid #335893 1px;
-  color: #335893;
+  border: none;
+  background-color: transparent;
+  border-bottom: solid #82b1ff 3px;
+  color: white;
   font-size: 20px;
   margin-top: 10px;
   height: 40px;
   width: 100%;
+  transition: width 2s;
 }
+
 input:focus {
-  border: solid blue 2px;
+  width: 95%;
 }
 label {
   color: #335893;
@@ -39,7 +45,7 @@ button {
   font-weight: bold;
   font-size: 16px;
   margin-top: 5px;
-  background-color: white;
+  background-color: transparent;
   color: #335893;
   border:  2px solid #335893;
   border-radius: 5px;
@@ -57,18 +63,16 @@ select {
   border: none;
   outline: none;
 }
-.img {
+.cover {
   margin-left: 50px;
-}
-.img img {
-  height: 800px;
+  background-color: #335893;
   width: 2300px;
+  height: 400px;
 }
 .container {
   padding: 20px;
   width: 1800px;
   margin: auto;
-  border: solid black 2px;
 }
 #title {
   color: #335893;
