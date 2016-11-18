@@ -1,6 +1,35 @@
+::before,
+::after {
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
 nav {
   position: absolute; top: 15px; left: 70px;
 }
 a {
   font-size: 20px;
+}
+form {
+  width: 800px;
+  margin: auto;
+  border: solid black 2px;
+}
+select, input {
+  width: 400px;
+  box-sizing: border-box;
+}
+.img {
+  margin-left: 50px;
+}
+.img img {
+  height: 800px;
+  width: 2300px;
+}
+.container {
+  padding: 20px;
+  width: 1800px;
+  margin: auto;
+  border: solid black 2px;
 }

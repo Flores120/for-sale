@@ -6,12 +6,20 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 nav {
+  background-color: inherit;
   position: absolute; top: 15px; left: 70px;
+  padding: 10px;
 }
 a {
+  margin-left: 5px;
+  text-decoration: none;
   color: white;
   font-size: 20px;
 }
+a:hover:not(.active){
+  filter: brightness(.4);
+}
+
 .img {
   margin-left: 50px;
 }
