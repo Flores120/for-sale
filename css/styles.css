@@ -5,6 +5,13 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+nav {
+  position: absolute; top: 15px; left: 70px;
+}
+a {
+  color: white;
+  font-size: 20px;
+}
 .img {
   margin-left: 50px;
 }
