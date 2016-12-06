@@ -36,6 +36,10 @@ a:hover:not(.active){
   margin: auto;
   margin-left: 10px;
 }
+#header::before{
+  content: "The ";
+  color: #335893;
+}
 #description {
   color: white;
   width: 900px;
